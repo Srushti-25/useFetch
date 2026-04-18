@@ -1,0 +1,45 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  color: var(--text-dark);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  aspect-ratio: 1 / 1;   /* makes square */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+:root {
+  --bg-color: #f1f5f9;
+  --card-bg: #ffffff;
+  --primary: #2563eb;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
